@@ -1,0 +1,14 @@
+vpc_cidr           = "10.0.0.0/16"
+region             = "ap-northeast-1"
+availability_zones = ["ap-northeast-1a", "ap-northeast-1c"]
+
+local_asn = "65413"
+cloud_asn = "65412"
+
+local_ep      = "203.0.113.100"
+local_address = "198.51.100.10"
+nsx_host      = "192.0.2.20"
+nsx_username  = "admin"
+nsx_password  = "NsxAdminP@ssword"
+nsx_t0gw      = "t0gw"
+
