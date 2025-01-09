@@ -1,3 +1,7 @@
+variable "vpc_id" {
+  type = string
+}
+
 variable "local_asn" {
   type = string
 }
